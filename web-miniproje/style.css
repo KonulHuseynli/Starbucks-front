@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./assets/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+}
+.center{
+    width: 600px;
+    background-color: rgb(0,0,0,0.7);
+    height: 550px;
+    text-align: center;
+    border-radius: 50px;
+
+}
+.content{
+    padding: 30px;
+}
+h1{
+    color: rgb(192, 108, 122);
+}
+.content h2,p{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 10px  auto;
+}
+.content h3{
+margin-top: 20px;
+}
+.social i{
+    padding: 0 10px;
+    font-size: 50px;
+    color: rgba(255,255,255,0.6);
+    transition: 0.4s;
+}
+i:hover{
+ color:  rgba(255,255,255,1);
+}
+@media screen and (max-width:700px){
+    .center{
+        width: 400px;
+        height: 530px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        width: 95%;
+        font-size: 14px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .social a i{
+        font-size: 25px;
+    }
+}
